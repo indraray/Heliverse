@@ -2,7 +2,7 @@ import React from 'react';
 import './Card.css'
 
 function UserCard({ user, addToTeam, team }) {
-  const { id, first_name, last_name, email, gender, avatar, domain, available } = user;
+  const { first_name, last_name, email, gender, avatar, domain, available } = user;
 
   const isUniqueDomain = (user) => {
     // Logic to check if the user's domain is unique
